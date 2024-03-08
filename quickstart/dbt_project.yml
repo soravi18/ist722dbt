@@ -37,5 +37,8 @@ clean-targets:         # directories to be removed by `dbt clean`
 
 # after
 models:
-  jaffle_shop:
+  northwind:
     +materialized: table
+    database: analytics
+    +schema: northwind
+
