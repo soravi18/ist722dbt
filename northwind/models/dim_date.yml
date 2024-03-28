@@ -2,6 +2,10 @@ version: 2
 
 models:
   - name: dim_date
+    docs:
+      show: true
+      node_color: #cd7f32
+
     description: Conformed Date Dimension. One row per day of the year.
     columns:
       - name: datekey 
