@@ -9,4 +9,4 @@ select
     VENDOR_PHONE,
     VENDOR_WEBSITE,
     current_timestamp() as active_time
-from stg_vendors;
+from stg_vendors
