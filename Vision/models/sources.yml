@@ -181,3 +181,17 @@ sources:
             not_null: true
           - name: vendor_phone
             not_null: true
+      - name: account_validity
+        columns:
+        - name: CUSTOMER_ID
+          not_null: true
+          tests:
+            - unique
+            - not_null
+        - name: ACCOUNT_CREATED_DATE
+          not_null: true
+        - name: IS_ACTIVE
+          not_null: true
+
+
+
