@@ -1,9 +1,9 @@
 version: 2
 
 sources:
-  - name: conformed
-    database: raw
-    schema: conformed
+  - name: visionmart
+    database: vision
+    schema: visionmart
 
     tables:
       - name: DateDimension
@@ -12,12 +12,6 @@ sources:
             tests:
               - not_null
               - unique
-
-  - name: visionmart
-    database: vision
-    schema: visionmart
-
-    tables:
       - name: customers
         columns:
           - name: customer_id

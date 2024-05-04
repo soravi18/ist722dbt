@@ -2,7 +2,7 @@ version: 2
 
 models:
   - name: dim_date
-    description: Conformed Date Dimension. One row per day of the year.
+    description:  Date Dimension. One row per day of the year.
     columns:
       - name: date_key 
         data_type: int 
