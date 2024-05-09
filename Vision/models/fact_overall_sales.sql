@@ -81,11 +81,7 @@ inner join stg_visionbooks_fact b on f.customer_key = b.customer_key
 where
     f.month = m.month and f.year = m.year and f.month = c.month and f.year = c.year
     and f.month = b.month and f.year = b.year
-<<<<<<< HEAD
-order by f.customer_key, f.month, f.year
-=======
 order by f.customer_key, f.month, f.year
 
 
     
->>>>>>> 29c3079b6f09754d10b29231edd35720f6ddd567
