@@ -39,3 +39,13 @@ models:
   vision:
     +materialized: table
     database: vision_dwh
+
+# Add the following section to disable authentication
+# Replace the existing section if it already exists
+docs:
+  generate: true
+  serve: true
+  open: false
+  port: 8080
+  # Set auth_required to false to disable authentication
+  auth_required: false
